@@ -66,7 +66,12 @@ header {
   align-items: center;
   justify-content: space-evenly;
   height: 100vh;
-  background-color: var(--primary-color);
+  // background-color: var(--primary-color);
+  background: url(ps.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   overflow-x: hidden;
   padding: 0 40px;
 
