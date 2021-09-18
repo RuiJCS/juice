@@ -39,13 +39,12 @@ header {
   font-family: "Alfa Slab One", serif;
   font-size: 32px;
   color: var(--primary-text-color);
-  display: flex;
-  align-items: left;
-  margin: 0 40px;
+  float: left;
+  margin: 0 0px;
 
   img {
     width: 60px;
-    margin: 0 25px;
+    margin: 0px 0px 0px 0px;
   }
 }
 
@@ -67,7 +66,7 @@ header {
   justify-content: space-evenly;
   height: 100vh;
   // background-color: var(--primary-color);
-  background: url(ps.jpg) no-repeat center center fixed; 
+  background: url(ps.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -153,19 +152,20 @@ footer {
 
 @media screen and (max-width: 768px) {
   header {
-    padding: 10px 30px;
+    padding: 0px 0px;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .logo {
     font-size: 28px;
     margin: 10px;
-
+    
+    
     img {
       width: 45px;
-      margin: 0 10px 0 0;
+      margin: 0px 0px 0px 0px;
     }
   }
 
